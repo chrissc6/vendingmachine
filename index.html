@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ts</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="js/lib/knockout-3.5.0.js"></script>
+    <script src="js/index.js"></script>
+</head>
+<body>
+    <div class="containter">
+        <h1>Vending Machine</h1>
+        <div class="col-md-8"></div>
+        <div class="col-md-4"></div>
+        <h4>
+            Paid: $
+            <span id="total"></span>
+            <br>
+            <button class="btn btn-primary"
+                onclick="machine.acceptCoinQ(new Quarter())">
+            Insert Quarter</button>
+        </h4>
+    </div>
+</body>
+</html>
